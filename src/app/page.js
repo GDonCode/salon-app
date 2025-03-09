@@ -8,7 +8,7 @@ import Footer from './components/Footer.js';
 export default function Home() {
   return (
     <>
-      <div className="h-screen bg-[url('/media/hero.jpg')] bg-cover bg-center relative -top-full">
+      <div className="h-screen bg-[url('/media/hero.jpg')] bg-cover bg-center h-[100vh] relative">
         <Header className="z-10"/>
         <HeroText className="z-10"/>
       </div>
